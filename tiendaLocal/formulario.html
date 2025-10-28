@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="estiloFormulario.css">
+</head>
+
+<body>
+  <div id="header-principal">
+    <header>
+      <a href=" index.html"> Inicio</a>
+      <a href="productos.html">Productos</a>
+      <a href="formulario.html">Formulario</a>
+    </header>
+  </div>
+
+  <h1>Formulario</h1>
+
+  <section class="container">
+    <img src="Images/imagenFormulario.webp" alt="imagenFormulario">
+    
+    <form class="formulario">
+      <h2><strong>Datos del comprador</strong> </h2>
+
+      <label for="nombre">Nombre completo:</label><br>
+      <input type="text" id="nombre" name="nombre" required><br><br>
+
+      <label for="email">DNI:</label><br>
+      <input type="text" id="DNI" name="DNI" required><br><br>
+
+      <label for="telefono">Correo Electronico:</label><br>
+      <input type="email" id="email" name="email"><br><br>
+
+      <br>
+
+      <h2><strong>Datos del pedido</strong> </h2>
+
+      <label for="producto">Producto:</label><br>
+      <select id="producto" name="producto" required>
+        <option value="">-- Selecciona un producto --</option>
+        <option value="camisetaBrasil">Camiseta de Brasil - 75€</option>
+        <option value="camisetaGirona">Camiseta del Girona - 60€</option>
+        <option value="camisetaBarcelona">Camiseta del FC Barcelona - 85€</option>
+        <option value="raquetaEros">Raqueta Eros - 80€</option>
+        <option value="raquetaVertex">Raqueta Vertex - 70€</option>
+        <option value="raquetaHack">Raqueta Hack - 100€</option>
+      </select><br><br>
+
+      <label for="cantidad">Cantidad:</label><br>
+      <input type="number" id="cantidad" name="cantidad" min="1" max="9"><br><br>
+
+      <input type="submit" value="Enviar pedido">
+      <input type="reset" value="borrar formulario">
+    </form>
+  </section>
+
+    <footer>
+      <span>&copy; 2025 por Elias Mahyaoui</span>
+
+    </footer>
+</body>
+
+</html>
