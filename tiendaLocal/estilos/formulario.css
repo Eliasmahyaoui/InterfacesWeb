@@ -45,11 +45,10 @@ body {
 
 img {
     position: absolute;
-    left: 600px;
-    max-width: 100px, 200px;
+    left: 900px;
+    margin-right: 300px;
+
 }
-
-
 /*titulos */
 h1 {
     text-align: center;
