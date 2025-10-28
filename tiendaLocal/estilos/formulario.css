@@ -10,40 +10,43 @@ body {
     background-color: rgb(28, 18, 18);
     margin: auto;
     padding: 30px;
-      
+
 
     a:hover {
-      text-decoration: none;
+        text-decoration: none;
         color: rgb(252, 252, 252);
     }
 }
 
-.container{
+.container {
     text-align: right;
-    
+
 }
 
-.formulario{
+/*AQUI EN EL FORM POR EJEMPLO TAMBIEN ANIDO(NESTING) PARA REDUCIR CODIGO, YA QUE ESTA TODO DENTRO DE FORMULARIO*/
+.formulario {
     border-radius: 5px;
     padding: 0px;
     margin: 20px;
     text-align: left;
-}
 
 
-label {
-    display:inline-block
-}
-input:hover{
-    display:inline-block;
-    padding: 5px;
-    text-decoration:dotted;
+
+    label {
+        display: inline-block
+    }
+
+    input:hover {
+        display: inline-block;
+        padding: 5px;
+        text-decoration: dotted;
+    }
 }
 
- img{
-    position:absolute;
+img {
+    position: absolute;
     left: 600px;
-    max-width: 100px,200px;
+    max-width: 100px, 200px;
 }
 
 
@@ -59,11 +62,11 @@ h2 {
     color: rgb(0, 0, 0)
 }
 
-   /*FOOTER*/
-    footer {
-        text-align: center;
-        background-color: black;
-        padding: 30px;
-        color: white;
-        font-size: 25px;
-    }
+/*FOOTER*/
+footer {
+    text-align: center;
+    background-color: black;
+    padding: 30px;
+    color: white;
+    font-size: 25px;
+}
