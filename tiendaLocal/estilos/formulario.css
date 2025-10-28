@@ -40,10 +40,10 @@ input:hover{
     text-decoration:dotted;
 }
 
-img{
-    position: absolute;
+ img{
+    position:absolute;
     left: 600px;
-    max-width: 100px,00px;
+    max-width: 100px,200px;
 }
 
 
